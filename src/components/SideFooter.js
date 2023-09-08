@@ -12,19 +12,19 @@ export default function SideFooter() {
         )}
         {config.phone && (
           <li>
-            <h3>Phone</h3>
+            <h3>Telefon</h3>
             <span>{config.phone}</span>
           </li>
         )}
         {config.address && (
           <li>
-            <h3>Address</h3>
+            <h3>Adresa</h3>
             <span>{config.address}</span>
           </li>
         )}
 
         <li>
-          <h3>Elsewhere</h3>
+          <h3>Link-uri</h3>
           <ul className="icons">
             {config.socialLinks.map(social => {
               const { icon, name, url } = social;
