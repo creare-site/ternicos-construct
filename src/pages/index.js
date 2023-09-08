@@ -5,8 +5,8 @@ import Footer from '../components/Footer';
 import Header from '../components/Header';
 import SideFooter from '../components/SideFooter';
 
-import heroImage from '../assets/images/pic01.jpg';
-import pic2 from '../assets/images/pic02.jpg';
+import img_hero from '../assets/img-custom/hero.jpg';
+import img_hero2 from '../assets/img-custom/hero2.jpg';
 import Gallery from '../components/Gallery';
 import ContactForm from '../components/ContactForm';
 import { Link } from 'gatsby';
@@ -30,14 +30,7 @@ const img_set_1 = [
     thumbnail: require('../assets/images/gallery/thumbs/03.jpg').default,
     title: 'Any time ',
     desc: 'Be one with the time',
-  },
-  {
-    src: require('../assets/images/gallery/fulls/04.jpg').default,
-    thumbnail: require('../assets/images/gallery/thumbs/04.jpg').default,
-    title: 'Any source of light',
-    desc: 'Be one with the light',
-    full: true,
-  },
+  }
 ];
 const img_set_2 = [
   {
@@ -88,75 +81,88 @@ const IndexPage = () => (
         <Header />
         <div className="content">
           <span className="image fill" data-position="center">
-            <img src={heroImage} alt="" />
+            <img src={img_hero} alt="" />
           </span>
         </div>
       </section>
 
       <section id="first">
         <header>
-          <h2>Magna sed nullam nisl adipiscing</h2>
+          <h2>CINE SUNTEM</h2>
         </header>
         <div className="content">
           <p>
-            <strong>Lorem ipsum dolor</strong> sit amet consectetur adipiscing
-            elit. Duis dapibus rutrum facilisis. Class aptent taciti sociosqu ad
-            litora torquent per conubia nostra, per inceptos himenaeos. Etiam
-            tristique libero eu nibh porttitor amet fermentum. Nullam venenatis
-            erat id vehicula ultrices sed ultricies condimentum. Magna sed etiam
-            consequat, et lorem adipiscing sed nulla. Volutpat nisl et tempus et
-            dolor libero, feugiat magna tempus, sed et lorem adipiscing.
+          <strong>TernicosConstruct SRL</strong> este o societate cu capital
+privat romanesc infiintata in anul 2017, domeniul principal de
+activitate il reprezinta restaurarea de monumente istorice si de
+patrimoniu, reabilitarea fatadelor exterioare.
+          </p>
+          <p>
+          În functie de situatia regasita, serviciile noastre pot fi
+adaptate si va putem ajuta prin confectionarea pieselor dorite în
+cazul proiectului dumneavoastra fie ca e vorba de o fatada la
+care lucrati, fie ca este vorba de piese particulare distruse pe
+care doriti să le înlocuiti
+          </p>
+          <p>
+          Echipa noastra de mesteri poate reconstitui orice fel
+de ornament decorativ din ipsos sau beton de pe fatadele sau
+din interioarele cladirilor vechi sau de patrimoniu care
+sunt avariate din diverse motive.
           </p>
           <span className="image main">
-            <img src={pic2} alt="" />
+            <img src={img_hero2} alt="" />
           </span>
         </div>
       </section>
 
       <section>
         <header>
-          <h2>Feugiat consequat tempus ultrices</h2>
+          <h2>
+            Servicii
+          </h2>
         </header>
         <div className="content">
           <p>
-            <strong>Etiam tristique libero</strong> eu nibh porttitor amet
-            fermentum. Nullam venenatis erat id vehicula ultrices sed ultricies
-            condimentum.
+            <strong>Suntem specializați</strong> în reabilitarea fațadelor istorice de orice tip și stil architectural
           </p>
           <ul className="feature-icons">
-            <li className="icon fa-laptop">Consequat tempus</li>
-            <li className="icon fa-bolt">Etiam adipiscing</li>
-            <li className="icon fa-signal">Libero nullam</li>
-            <li className="icon fa-gear">Blandit condimentum</li>
-            <li className="icon fa-map-marker">Lorem ipsum dolor</li>
-            <li className="icon fa-code">Nibh amet venenatis</li>
+            <li className="icon fa-info">Reabilitare</li>
+            <li className="icon fa-info">Reparatie</li>
+            <li className="icon fa-info">Modernizare</li>
+            <li className="icon fa-info">Intretinere</li>
           </ul>
           <p>
-            Vehicula ultrices sed ultricies condimentum. Magna sed etiam
-            consequat, et lorem adipiscing sed nulla. Volutpat nisl et tempus et
-            dolor libero, feugiat magna tempus, sed et lorem adipiscing.
+          Fiind autentici, atât ca execuție cât și ca materiale
+folosite, reabilitarea unei fațade istorice executate de
+către noi , este produsul cel mai apreciat de către
+clienții noștri și nu numai, prin colaborarea cu
+societatea noastră aveți posibilitatea de a reda
+strălucirea și farmecul inițial al clădirii dumneavoastră
+printr-o reabilitare corect executată și de cea mai înaltă
+calitate.
           </p>
         </div>
       </section>
 
       <section>
         <header>
-          <h2>Ultrices erat magna sed condimentum</h2>
+          <h2>
+          PORTOFOLIU
+          </h2>
         </header>
         <div className="content">
           <p>
-            <strong>Integer mollis egestas</strong> nam maximus erat id euismod
-            egestas. Pellentesque sapien ac quam. Lorem ipsum dolor sit nullam.
+            <strong>Din 2017</strong> am reusit sa finalizam proiecte ... etc. 
           </p>
 
           <section>
             <header>
-              <h3>Erat aliquam</h3>
+              <h3>
+              ORNAMENTE
+              </h3>
               <p>
-                Vehicula ultrices dolor amet ultricies et condimentum. Magna sed
-                etiam consequat, et lorem adipiscing sed dolor sit amet,
-                consectetur amet do eiusmod tempor incididunt ipsum suspendisse
-                ultrices gravida.
+              ORNAMENTE text ... 
               </p>
             </header>
             <div className="content">
@@ -166,12 +172,11 @@ const IndexPage = () => (
 
           <section>
             <header>
-              <h3>Nisl consequat</h3>
+              <h3>
+              Braila, Bd. Alexandu Ioan Cuza
+              </h3>
               <p>
-                Aenean ornare velit lacus, ac varius enim ullamcorper eu. Proin
-                aliquam sed facilisis ante interdum congue. Integer mollis, nisl
-                amet convallis, porttitor magna ullamcorper, amet mauris. Ut
-                magna finibus nisi nec lacinia ipsum maximus.
+                Proiect info ... 
               </p>
             </header>
             <div className="content">
@@ -183,12 +188,11 @@ const IndexPage = () => (
 
           <section>
             <header>
-              <h3>Lorem gravida</h3>
+              <h3>
+              Braila, str. Teatrului
+              </h3>
               <p>
-                Proin aliquam facilisis ante interdum. Sed nulla amet lorem
-                feugiat tempus aenean ornare velit lacus, ac varius sed enim
-                lorem ullamcorper dolore. ac varius enim lorem ullamcorper
-                dolore. Proin aliquam facilisis.
+              Proiect info ...
               </p>
             </header>
             <div className="content">
@@ -202,24 +206,25 @@ const IndexPage = () => (
 
       <section>
         <header>
-          <h2>Duis sed adpiscing veroeros amet</h2>
+          <h2>
+            Resurse
+          </h2>
         </header>
         <div className="content">
           <p>
-            <strong>Elements</strong> This starter contains all elements for a
-            page. Check it out
+            <strong>Mai multe informatii</strong> despre proiectele noastre puteti afla in sectiunea <a href="#">blog</a>.
           </p>
           <ul className="actions">
             <li>
-              <Link to="/Elements" className="button primary large">
-                Goto Elements Page
+              <Link to="#" className="button primary large">
+                Blog
               </Link>
             </li>
-            {/* <li>
-              <a href="/#" className="button large">
-                Learn More
+            { <li>
+              <a href="#" className="button large">
+                Documentatie
               </a>
-            </li> */}
+            </li> }
           </ul>
         </div>
       </section>

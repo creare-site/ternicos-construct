@@ -3,8 +3,7 @@ import React from 'react';
 export default function Footer() {
   return (
     <div className="copyright">
-      &copy; Paradigm Shift. All rights reserved. Design:
-      <a href="https://html5up.net">HTML5 UP</a>.
+      &copy; <a href="https://ternicos-construct.ro/">Ternicos Construct</a>, toate drepturile rezervate - Creat de <a href="https://websitemarket.ro/">WebsiteMarket</a>
     </div>
   );
 }
