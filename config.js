@@ -24,6 +24,6 @@ module.exports = {
     },
   ],
   emailId: 'ternicosconstruct@yahoo.com',
-  phone: '0746059748',
+  phone: '0746.059.748',
   address: 'Brăila, Str. Hipodrom, Nr.19',
 };

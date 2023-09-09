@@ -212,17 +212,17 @@ calitate.
         </header>
         <div className="content">
           <p>
-            <strong>Mai multe informatii</strong> despre proiectele noastre puteti afla in sectiunea <a href="#">blog</a>.
+            <strong>Mai multe informatii</strong> despre proiectele noastre puteti afla in sectiunea <a target="_blank" rel="noreferrer" href="https://docs.ternicos-construct.ro">blog</a>.
           </p>
           <ul className="actions">
             <li>
-              <Link to="#" className="button primary large">
+              <Link to="https://docs.ternicos-construct.ro" className="button primary large">
                 Blog
               </Link>
             </li>
             { <li>
-              <a href="#" className="button large">
-                Documentatie
+              <a href="tel:0746059748" className="button large text-bold">
+               Tel: 0746.059.748
               </a>
             </li> }
           </ul>
