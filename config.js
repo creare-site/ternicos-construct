@@ -18,9 +18,9 @@ module.exports = {
       url: 'https://github.com/creare-site/ternicos-construct',
     },
     {
-      icon: 'fa-facebook',
-      name: 'Facebook',
-      url: 'https://facebook.com/#',
+      icon: 'fa-wordpress',
+      name: 'Blog',
+      url: 'https://docs.ternicos-construct.ro/',
     },
   ],
   emailId: 'ternicosconstruct@yahoo.com',

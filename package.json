@@ -28,6 +28,7 @@
   },
   "scripts": {
     "deploy": "gatsby clean && gatsby build && node deploy",
+    "start": "gatsby develop",
     "develop": "gatsby develop",
     "build": "npm run clean && gatsby build",
     "serve": "gatsby serve",
