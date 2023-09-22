@@ -1,5 +1,5 @@
 module.exports = {
-  siteTitle: 'Ternicos Construct - Restaurarea de monumente istorice si de patrimoniu, Reabilitarea fatadelor exterioare.', // <title>
+  siteTitle: 'Restaurarea de monumente istorice si de patrimoniu, Reabilitarea fatadelor exterioare - Ternicos Construct', // <title>
   manifestName: 'paradigmshift',
   manifestShortName: 'Landing', // max 12 characters
   manifestStartUrl: '/',
@@ -8,8 +8,8 @@ module.exports = {
   manifestDisplay: 'standalone',
   manifestIcon: 'src/assets/img/website-icon.png',
   pathPrefix: `/gatsby-starter-paradigmshift/`, // This path is subpath of your hosting https://domain/portfolio
-  heading: 'Ternicos Construct',
-  subHeading: 'restaurarea de monumente istorice si de patrimoniu, reabilitarea fatadelor exterioare.',
+  heading: 'Restaurare Monumente Istorice',
+  subHeading: 'Ternicos Construct (Braila) executa lucrari de restaurare a Monumente Istorice si de Patrimoniu din 2017',
   // social
   socialLinks: [
     {
@@ -24,6 +24,6 @@ module.exports = {
     },
   ],
   emailId: 'ternicosconstruct@yahoo.com',
-  phone: '0746.059.748',
+  phone: '0746.064.102',
   address: 'Brăila, Str. Hipodrom, Nr.19',
 };

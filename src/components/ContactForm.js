@@ -13,33 +13,16 @@ export default function ContactForm() {
 sau sparte, profile de toate tipurile, bosaje, asize sau orice element architectural degradat sau distrus ce necesită
 întregire sau a fi turnat din nou cu același tip de material ca și originalul.
         </p>
-        <form>
-          <div className="fields">
-            <div className="field half">
-              <input type="text" name="name" id="name" placeholder="Nume" />
-            </div>
-            <div className="field half">
-              <input type="email" name="email" id="email" placeholder="Email" />
-            </div>
-            <div className="field">
-              <textarea
-                name="message"
-                id="message"
-                placeholder="Mesaj"
-                rows="7"
-              />
-            </div>
-          </div>
-          <ul className="actions">
-            <li>
-              <input
-                type="submit"
-                value="Trimite Mesaj"
-                className="button primary"
-              />
-            </li>
-          </ul>
-        </form>
+        <p>
+          <a href="tel:0746064102" className="button large primary text-bold">
+            Cere Oferta
+          </a>
+        </p>
+        <p>
+          <strong>
+            Alaturi de clientii nostri din 2017. 
+          </strong>
+        </p>
       </div>
     </>
   );

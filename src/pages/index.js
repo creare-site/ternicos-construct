@@ -105,6 +105,9 @@ care lucrati, fie ca este vorba de piese particulare distruse pe
 care doriti să le înlocuiti
           </p>
           <p>
+          <strong>Pentru detalii</strong> puteti suna la numarul de telefon <strong><a href="tel:0746064102">0746.064.102</a></strong>
+          </p>
+          <p>
           Echipa noastra de mesteri poate reconstitui orice fel
 de ornament decorativ din ipsos sau beton de pe fatadele sau
 din interioarele cladirilor vechi sau de patrimoniu care
@@ -153,7 +156,9 @@ calitate.
         </header>
         <div className="content">
           <p>
-            <strong>Din 2017</strong> am reusit sa finalizam proiecte ... etc. 
+            <strong>Din 2017</strong> am reusit sa finalizam peste 30 de proiecte care au implicat reabilitarea fatadelor, ornamente (diverse marimi si forme) in zona Braila, Galati, Focsani.
+            <br/>
+            <strong>Pentru detalii</strong> puteti suna la numarul de telefon <strong><a href="tel:0746064102">0746.064.102</a></strong>
           </p>
 
           <section>
@@ -162,7 +167,7 @@ calitate.
               ORNAMENTE
               </h3>
               <p>
-              ORNAMENTE text ... 
+              Putem livra ornamente intr-o varietate de forme, de la modele geometrice și simboluri până la sculpturi elaborate sau detalii artistice. 
               </p>
             </header>
             <div className="content">
@@ -176,7 +181,7 @@ calitate.
               Braila, Bd. Alexandu Ioan Cuza
               </h3>
               <p>
-                Proiect info ... 
+                Proiect complex care a implicat reabilitare de fatada si reconstructie ornamente - Durata executiei: 3 luni. 
               </p>
             </header>
             <div className="content">
@@ -192,7 +197,7 @@ calitate.
               Braila, str. Teatrului
               </h3>
               <p>
-              Proiect info ...
+              Proiect de reabilitare fatada, interior si peste 50 de ornamente cu profil complex - Durata executiei: 6 luni.
               </p>
             </header>
             <div className="content">
@@ -212,19 +217,15 @@ calitate.
         </header>
         <div className="content">
           <p>
-            <strong>Mai multe informatii</strong> despre proiectele noastre puteti afla in sectiunea <a target="_blank" rel="noreferrer" href="https://docs.ternicos-construct.ro">blog</a>.
+            <strong>Mai multe informatii</strong> despre proiectele noastre puteti afla in sectiunea blog:
           </p>
           <ul className="actions">
             <li>
-              <Link to="https://docs.ternicos-construct.ro" className="button primary large">
+              <Link to="https://docs.ternicos-construct.ro" className="button large">
                 Blog
               </Link>
             </li>
-            { <li>
-              <a href="tel:0746059748" className="button large text-bold">
-               Tel: 0746.059.748
-              </a>
-            </li> }
+            {  }
           </ul>
         </div>
       </section>
